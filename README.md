@@ -1,0 +1,1 @@
+verify-smart-contracts
