@@ -11,7 +11,7 @@ Ideally, the specification should be build automatically.
 ## Getting started
 Build the docker container with:
 ```
-docker build -t kevem .
+docker build -t kevm .
 ```
 
 
