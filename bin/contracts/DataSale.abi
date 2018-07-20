@@ -1,0 +1,1 @@
+[{"constant":false,"inputs":[],"name":"fundContract","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":false,"inputs":[{"name":"_data","type":"bytes32"}],"name":"payout","outputs":[],"payable":true,"stateMutability":"payable","type":"function"}]
