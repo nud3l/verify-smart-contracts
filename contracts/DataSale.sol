@@ -18,4 +18,9 @@ contract DataSale {
         data = _data;
         msg.sender.transfer(price);
     }
+
+    function getData() public view returns (bytes32) {
+        require(msg.sender == buyer);
+        return data;
+    }
 }
