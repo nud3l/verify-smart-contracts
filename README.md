@@ -9,6 +9,22 @@ This represents a very simple swap contract where agent *A* needs to fund the co
 Ideally, the specification should be build automatically.
 
 ## Getting started
+
+You need KEVM available in your local machine.
+
+### Local Install
+Since KEVM is comparably resource intensive it might be better to have a local version.
+
+Follow the instructions at [https://github.com/kframework/evm-semantics](https://github.com/kframework/evm-semantics).
+
+For convenience add kevm to your PATH.
+
+```
+export PATH=$PATH:/path/to/evm-semantics
+```
+
+
+### Docker Install
 Build the docker container with:
 ```
 docker build -t kevm .
