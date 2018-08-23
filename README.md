@@ -1,6 +1,6 @@
-# Automatically verify porperties in smart contracts with KEVM
+# Automatically verify properties in smart contracts with KEVM/KLab
 
-Two agents can negotiate the price for exchanging a pice of data *d* for an agreed price *p*. The result of the negotiation can be a contract deployed in Ethereum.
+Two agents can negotiate the price for exchanging a piece of data *d* for an agreed price *p*. The result of the negotiation can be a contract deployed in Ethereum.
 
 To ensure that the contract is correct, the agents can verify the specific properties in the contract.
 
@@ -10,41 +10,17 @@ Ideally, the specification should be build automatically.
 
 ## Getting started
 
-You need KEVM available in your local machine.
+You need KEVM/KLab available in your local machine.
 
 ### Local Install
-Since KEVM is comparably resource intensive it might be better to have a local version.
+Since KEVM/KLab is comparably resource intensive it might be better to have a local version.
 
-Follow the instructions at [https://github.com/kframework/evm-semantics](https://github.com/kframework/evm-semantics).
+Follow the instructions at [https://github.com/kframework/evm-semantics](https://github.com/kframework/evm-semantics) to get the required system wide packages installed.
 
-For convenience add kevm to your PATH.
+Next, follow the instructions at [https://github.com/dapphub/klab](https://github.com/dapphub/klab) to install KLab server and client.
 
-```
-export PATH=$PATH:/path/to/evm-semantics
-```
+### Test
+Run the examples from the KLab directory.
 
-
-### Docker Install
-Build the docker container with:
-```
-docker build -t kevm .
-```
-
-
-This will install the KEVM requirements in an Ubuntu 16.04 container according to the requirements listed in [https://github.com/kframework/evm-semantics](https://github.com/kframework/evm-semantics). The image is based on [https://github.com/phusion/baseimage-docker](https://github.com/phusion/baseimage-docker).
-
-
-Start the docker container:
-```
-docker start kevm
-```
-
-**Warning**: The docker container has an insecure ssh key set. It is purely for testing purposes and should not be exposed to the Internet.
-
-You can get *docker-ssh* as a command line tool by executing the following:
-```
-curl --fail -L -O https://github.com/phusion/baseimage-docker/archive/master.tar.gz && \
-tar xzf master.tar.gz && \
-sudo ./baseimage-docker-master/install-tools.sh
-docker-ssh YOUR-CONTAINER-ID
-```
+### Tutorial
+A quick tutorial is available at [https://www.youtube.com/watch?v=z4mIo38x1u8](https://www.youtube.com/watch?v=z4mIo38x1u8).
