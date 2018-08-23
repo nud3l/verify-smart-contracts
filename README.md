@@ -24,3 +24,7 @@ Run the examples from the KLab directory.
 
 ### Tutorial
 A quick tutorial is available at [https://www.youtube.com/watch?v=z4mIo38x1u8](https://www.youtube.com/watch?v=z4mIo38x1u8).
+
+## Simple sale contract
+This contract represents a simple sale where *A* funds a contract and *B* stores a file and in turn receives a payment.
+
